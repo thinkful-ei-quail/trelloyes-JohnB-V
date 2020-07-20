@@ -1,5 +1,6 @@
 import React from 'react';
 import List from "./List";
+import './App.css';
 
 
 function App(props) {
@@ -10,7 +11,7 @@ function App(props) {
 
   return (
     <main className='App'>
-      <header>
+      <header className="App-header">
         <h1>Trelloyes!</h1>
         <div className='App-list'>{list}</div>
       </header>
